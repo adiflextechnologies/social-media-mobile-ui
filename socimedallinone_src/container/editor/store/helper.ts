@@ -1,0 +1,15 @@
+const KEYS = {
+  ETYPE: 'EDITOR_TYPE',
+  ELOADED: 'EDITOR_LOADED',
+  DOWNLOADING: 'EDITOR_DOWNLOADING',
+  TEMPLATES: 'EDITOR_TEMPLATES',
+  ATEMPLATE: 'EDITOR_ATEMPLATE',
+  OVERLAYS: 'EDITOR_OVERLAYS',
+  AOVERLAY: 'EDITOR_AOVERLAY',
+};
+
+const getRecoilKey = (type: keyof typeof KEYS) => {
+  return `REACTNATIVEEDITOR_${type}`;
+};
+
+export {getRecoilKey, KEYS};

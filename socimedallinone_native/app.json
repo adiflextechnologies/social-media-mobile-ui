@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "पाचपुते",
+    "slug": "पाचपुतेसाहेब",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#525252"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.socialmediaio.pachput"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#525252"
+      },
+      "package": "com.socialmediaio.pachput"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to make reel and poster."
+        }
+      ]
+    ]
+  }
+}
